@@ -1,40 +1,113 @@
 body {
-  background-image: url("https://wallpaperaccess.com/full/366638.jpg");
+  background-color: lightblue;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   min-height: 100%;
   max-width: 100vw;
-  margin-top: 80px;
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
-  height: 100vw;
-  background-attachment: fixed;
+  height: 100vh;
+  /* background-attachment: fixed; */
   /* z-index: 2; */
 }
 
 header {
-
-}
-
-a {
-text-decoration: none;
-}
-
-footer {
   display: flex;
   width: 100%;
-  /* align-items: center; */
+  height: 30px;
   justify-content: space-around;
   text-align: center;
   background-color: #a6f188;
   padding: 15px;
   position: fixed;
+  top: 0;
+  left: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  background-image: url("https://wallpaperaccess.com/full/366638.jpg");
+  display: flex;
+  /* flex-direction: column; */
+  text-align: center;
+  background-position: left center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.main-container img {
+width: 65%;
+justify-self: center;
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+}
+
+.about-section img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20vw;
+  margin: 20px;
+  border: 3px solid black;
+  box-shadow: 8px 8px 8px #302a2a99;
+  height: 16 0px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.projects-section img {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  margin: 20px;
+  border: 3px solid black;
+  box-shadow: 8px 8px 8px #302a2a99;
+  height: 16 0px;
+}
+
+hr {
+  border-width: 3px;
+  color: black;
+}
+
+.connect-container {
+  width: 100vw;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #a6f188;
+  padding: 15px;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
-  /* padding-left: 100px;
-  padding-right: 100px; */
 }
 
 .footer-text {
