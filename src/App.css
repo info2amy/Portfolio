@@ -116,7 +116,12 @@ hr {
 
 .connect-container {
   width: 100vw;
-  height: 150px;
+  /* margin-top: 20px; */
+  padding-bottom: 40px;
+}
+
+.connect-container h2 {
+margin-top: 40px;
 }
 
 footer {
