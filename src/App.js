@@ -25,16 +25,16 @@ function App() {
             <img src={AmyTitle} alt="AmyTitle"/>
         </container>
 
-        <container className='about-container'>
           <h2>About Me</h2>
+        <container className='about-container'>
           <section className='about-section'>
             <img src={AboutMeArt} alt="AboutMeArt"/>
             <img src={AboutMeBrand} alt="AboutMeBrand"/>
           </section>
         </container>
 
-        <container className='projects-container'>
           <h2>Select Projects</h2>
+        <container className='projects-container'>
           <section className='projects-section'>
             <img src={Project1Pic} alt="project1pic"/>
             <img src={Project2Pic} alt="project2pic"/>
