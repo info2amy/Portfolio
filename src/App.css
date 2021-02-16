@@ -10,6 +10,8 @@ body {
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
+  /* margin: 0 auto; */
+
 }
 /*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 header {
@@ -23,6 +25,7 @@ header {
   position: fixed;
   top: 0;
   left: 0;
+  /* font-family: Georgia, serif; */
 }
 
 .logo {
@@ -35,16 +38,17 @@ a {
 }
 /*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 .main-container {
-  background-image: url(./images/Skyplantsbokeh.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  background-image: url(./images/Skyplantsbokeh.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
+  margin: 0 auto;
   padding-top: 30vh;
   padding-bottom: 50vh;
 }
@@ -132,17 +136,17 @@ h2 {
 .projects-section-2 {
   display: flex;
   flex-direction: row;
-  margin-left: 20vw;
+  margin-left: 18vw;
 }
 .projects-section-3 {
   display: flex;
   flex-direction: row;
-  margin-left: 30vw;
+  margin-left: 26vw;
 }
 .projects-section-4 {
   display: flex;
   flex-direction: row;
-  margin-left: 40vw;
+  margin-left: 34vw;
 }
 /*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 hr {

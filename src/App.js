@@ -6,7 +6,7 @@ import Project1Pic from "./images/Project1Pic.png";
 import Project2Pic from "./images/Project2Pic.png";
 import Project3Pic from "./images/Project3Pic.png";
 import Project4Pic from "./images/Project4Pic.png";
-import AboutMeArt from "./images/AboutMeArt.png";
+import AboutMeArtwork from "./images/AboutMeArtwork.png";
 import AboutMeBrand from "./images/AboutMeBrand.png";
 import AmyTitle from "./images/AmyTitle.png";
 import AmyLogo from "./images/AmyLogo.png";
@@ -30,7 +30,7 @@ function App() {
         <h2>About Me</h2>
         <container className="about-container">
           <section className="about-section">
-            <img src={AboutMeArt} alt="AboutMeArt" />
+            <img src={AboutMeArtwork} alt="AboutMeArtwork" />
             <img src={AboutMeBrand} alt="AboutMeBrand" />
           </section>
         </container>
