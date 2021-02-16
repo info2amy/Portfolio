@@ -11,11 +11,11 @@ body {
   width: 100vw;
   height: 100vh;
 }
-
+/*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 header {
   display: flex;
   width: 100%;
-  height: 30px;
+  height: 40px;
   justify-content: space-around;
   text-align: center;
   background-color: #a6f188;
@@ -25,40 +25,51 @@ header {
   left: 0;
 }
 
+.logo {
+  height: 30px;
+  align-items: center;
+}
+
 a {
   text-decoration: none;
 }
-
+/*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 .main-container {
-  background-image: url("https://wallpaperaccess.com/full/366638.jpg");
-  /* background-image: url('skyplantsbokeh.jpg'); */
-  z-index: 2;
+  background-image: url(./images/Skyplantsbokeh.png);
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background-position: left center;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
-  padding-top: 400px;
-  padding-bottom: 400px;
+  padding-top: 30vh;
+  padding-bottom: 50vh;
 }
 
-.main-container img {
-  width: 45vw;
+.main-container .title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 75vw;
+  height: 30vh;
+  max-width: 1000px;
+  max-height: 250px;
+  min-width: 300px;
+  min-height: 180px;
   margin: 0 auto;
-  border: 3px solid black;
+  border: 3px solid #575151;
   box-shadow: 8px 8px 8px #302a2a99;
 }
-
+/*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 h2 {
   text-decoration: underline;
   margin-top: 80px;
   margin-bottom: 0;
 }
-
+/*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 .about-container {
   display: flex;
   flex-direction: column;
@@ -84,32 +95,56 @@ h2 {
   border: 3px solid black;
   box-shadow: 8px 8px 8px #302a2a99;
 }
-
+/*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 .projects-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 0 auto;
   width: 100vw;
   height: 100vh;
   padding-top: 50px;
-  padding-bottom: 100px;
+  padding-bottom: 450px;
 }
 
-.projects-section {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.projects-section img {
-  width: 20vw;
+.projects-container img {
+  width: 300px;
+  height: 300px;
   margin: 20px;
   margin-top: 0;
   border: 3px solid black;
   box-shadow: 8px 8px 8px #302a2a99;
 }
 
+.projects-container .text {
+  width: 400px;
+  height: 180px;
+  padding: 50px;
+  margin-left: 50px;
+  background-color: #d8d5d5;
+  border-radius: 12%;
+}
+
+.projects-section-1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10vw;
+}
+.projects-section-2 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20vw;
+}
+.projects-section-3 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 30vw;
+}
+.projects-section-4 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40vw;
+}
+/*  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
 hr {
   border-width: 3px;
   color: black;
@@ -122,7 +157,7 @@ hr {
 }
 
 .connect-container h2 {
-margin-top: 40px;
+  margin-top: 40px;
 }
 
 footer {

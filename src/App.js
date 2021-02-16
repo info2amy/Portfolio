@@ -9,22 +9,22 @@ import Project4Pic from "./images/Project4Pic.png";
 import AboutMeArt from "./images/AboutMeArt.png";
 import AboutMeBrand from "./images/AboutMeBrand.png";
 import AmyTitle from "./images/AmyTitle.png";
-// import Skyplantsbokeh from "./images/Skyplantsbokeh.png";
+import AmyLogo from "./images/AmyLogo.png";
 
 function App() {
   return (
     <div className="App">
       <body>
         <header>
-          <a href=".logo">logo</a>
+          <img className="logo" src={AmyLogo} alt="logo" />
+          {/* <a href=".logo">logo</a> */}
           <a href=".about-container">About</a>
           <a href=".projects-container">Software Development</a>
           <a href=".connect-container">Contact Me</a>
         </header>
 
         <container className="main-container">
-          {/* <img src={Skyplantsbokeh} alt="background" /> */}
-          <img src={AmyTitle} alt="AmyTitle" />
+          <img className="title" src={AmyTitle} alt="AmyTitle" />
         </container>
 
         <h2>About Me</h2>
@@ -37,11 +37,29 @@ function App() {
 
         <h2>Select Projects</h2>
         <container className="projects-container">
-          <section className="projects-section">
+          <section className="projects-section-1">
             <img src={Project1Pic} alt="project1pic" />
+            <section className='text' >
+              <h4>What's for Dinner?</h4>
+            <p>My first project, after 10 days of lessons!</p></section>
+            </section> <br/>
+          <section className="projects-section-2">
             <img src={Project2Pic} alt="project2pic" />
+            <section className='text' >
+              <h4>Clearlake</h4>
+            <p>My second project, after 20 days of lessons!</p></section>
+            </section>
+          <section className="projects-section-3">
             <img src={Project3Pic} alt="project3pic" />
+            <section className='text' >
+              <h4>The Wanderin' Bard</h4>
+            <p>My third project, after 30 days of lessons!</p></section>
+            </section>
+          <section className="projects-section-4">
             <img src={Project4Pic} alt="project4pic" />
+            <section className='text' >
+              <h4>The Gardener's Journal</h4>
+            <p>My fourth project, after 40 days of lessons!</p></section>
           </section>
         </container>
 
