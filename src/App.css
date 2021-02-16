@@ -31,6 +31,7 @@ a {
 
 .main-container {
   background-image: url("https://wallpaperaccess.com/full/366638.jpg");
+  /* background-image: url('skyplantsbokeh.jpg'); */
   z-index: 2;
   display: flex;
   flex-direction: column;
