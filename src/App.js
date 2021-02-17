@@ -81,20 +81,19 @@ function App() {
         </container>
 
         <footer>
-          <a href="https://twitter.com/" target="_blank" rel="noreferrer">
-            <FaPhoneSquareAlt size="3em" color="black" />
-          </a>
+          <a href="https://drive.google.com/file/d/1xXaC0h4ZhJtB02R1tZnfFPXnYFWBLyRj/view?usp=sharing" className='footer-text'>
+            Résumé</a>
           <a
-            href="mailto:someone@yoursite.com"
+            href="mailto:info2amy@yahoo.com"
             target="_blank"
             rel="noreferrer"
           >
             <GrMailOption size="3em" color="black" />
           </a>
-          <a href="https://facebook.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/amy-a-kumar/" target="_blank" rel="noreferrer">
             <AiFillLinkedin size="3em" color="black" />
           </a>
-          <a href="https://facebook.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/info2amy?tab=repositories/" target="_blank" rel="noreferrer">
             <FaGithub size="3em" color="black" />
           </a>
           {/* <a href="https://facebook.com/" target="_blank" rel="noreferrer">
