@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: lightblue;
   margin-top: 30px;
@@ -155,7 +158,7 @@ h2 {
   box-shadow: 8px 8px 8px #302a2a99;
 }
 .projects-container h3 {
-margin-top: 0;
+  margin-top: 0;
 }
 
 .projects-container .text {

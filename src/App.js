@@ -17,7 +17,7 @@ function App() {
     <div className="App">
       <body>
         <header>
-          <a href="/">
+          <a href="#">
             <img className="logo" id="logo" src={AmyLogo} alt="logo" />
           </a>
           <a href="#about-container">About</a>
@@ -33,44 +33,77 @@ function App() {
         <container className="about-container" id="about-container">
           <section className="about-section">
             <img src={AboutMeArtwork} alt="AboutMeArtwork" />
-            <img src={AboutMeBrand} alt="AboutMeBrand" /> <br/>
-            <img id='lang' src={Languages} alt="Languages" /> <br/>
+            <img src={AboutMeBrand} alt="AboutMeBrand" />
+            <br /> <br />
+            <img id="lang" src={Languages} alt="Languages" /> <br />
           </section>
         </container>
 
         <h2>Select Projects</h2>
         <container className="projects-container" id="projects-container">
           <section className="projects-section-1">
-          <a href="https://info2amy.github.io/Whats-for-dinner/"><img src={Project1Pic} alt="project1pic" /></a>
+            <a href="https://info2amy.github.io/Whats-for-dinner/">
+              <img src={Project1Pic} alt="project1pic" />
+            </a>
             <section className="text">
               <h3>What's for Dinner?</h3>
-              <p>My first project, after 10 days of lessons!</p>
-              <p>This app was built using HTML, CSS, JavaScript and Axios along with a third-party API.  I was really pleased with making one of the containers look like a dining table, which becomes set for dinner once a main ingredient is entered! And I added a YouTube link for prep information.</p>
+              <p>My first project, after 10 days of coding!</p>
+              <p>
+                This app was built using HTML, CSS, JavaScript and Axios along
+                with a third-party API. I was really pleased with making one of
+                the containers look like a dining table, which becomes set for
+                dinner once a main ingredient is entered! And I added a YouTube
+                link for prep information.
+              </p>
             </section>
           </section>
           <br />
           <section className="projects-section-2">
-          <a href="https://clearlake-club-inc.netlify.app"><img src={Project2Pic} alt="project2pic" /></a>
+            <a href="https://clearlake-club-inc.netlify.app">
+              <img src={Project2Pic} alt="project2pic" />
+            </a>
             <section className="text">
               <h3>Clearlake</h3>
-              <p>My second project, after 20 days of lessons!</p>
-              <p>To utilize and develop my understanding of React, this app was created as a site to gather and share family pictures, memories and history.  Airtable API was utilized for data creation and storage, and also employed were React, React Router and Axios, as well as CSS styling.</p>
+              {/* <p>My second project, after 20 days of lessons!</p> */}
+              <p>
+                To utilize and develop my understanding of React, this app was
+                created as a site to gather and share family pictures, memories
+                and history. Airtable API was utilized for data creation and
+                storage, and also employed were React, React Router and Axios,
+                as well as CSS styling.
+              </p>
             </section>
           </section>
           <section className="projects-section-3">
-          <a href="https://jovial-meitner-83abc5.netlify.app/"><img src={Project3Pic} alt="project3pic" /></a>
+            <a href="https://jovial-meitner-83abc5.netlify.app/">
+              <img src={Project3Pic} alt="project3pic" />
+            </a>
             <section className="text">
               <h3>The Wanderin' Bard</h3>
-              <p>My third project, after 30 days of lessons!</p>
-              <p>The Wanderin' Bard is a webstore for unusual instruments from around the world. It was designed as a group partnership, giving experience with collaboration and Git version control.  It uses a React frontend and a backend built with Express and MongoDB.</p>
+              {/* <p>My third project, after 30 days of lessons!</p> */}
+              <p>
+                The Wanderin' Bard is a webstore for unusual instruments from
+                around the world. It was designed as a group partnership, giving
+                experience with collaboration and Git version control. It uses a
+                React frontend and a backend built with Express and MongoDB.
+              </p>
             </section>
           </section>
           <section className="projects-section-4">
-          <a href="https://the-gardeners-journal.netlify.app/"><img src={Project4Pic} alt="project4pic" /></a>
+            <a href="https://the-gardeners-journal.netlify.app/">
+              <img src={Project4Pic} alt="project4pic" />
+            </a>
             <section className="text">
               <h3>The Gardener's Journal</h3>
-              <p>My fourth project, after 40 days of lessons!</p>
-              <p>This application is designed to help gardeners with organizing and cataloging information about their favorite plants, whether in their home, their garden or in their dreams!  Built as a full-stack project with Ruby on Rails for the backend and React for the frontend, this app has full CRUD capabilities as well as user authentication.</p>
+              {/* <p>My fourth project, after 40 days of lessons!</p> */}
+              <p>
+                This application is designed to help gardeners with organizing
+                and cataloging information about their favorite plants, whether
+                in their home, their garden or in their dreams! Built as a
+                full-stack project with Ruby on Rails for the backend and React
+                for the frontend, this app has full CRUD capabilities as well as
+                user authentication.
+              </p>
             </section>
           </section>
         </container>
@@ -81,19 +114,27 @@ function App() {
         </container>
 
         <footer>
-          <a href="https://drive.google.com/file/d/1xXaC0h4ZhJtB02R1tZnfFPXnYFWBLyRj/view?usp=sharing" className='footer-text'>
-            Résumé</a>
           <a
-            href="mailto:info2amy@yahoo.com"
+            href="https://drive.google.com/file/d/1xXaC0h4ZhJtB02R1tZnfFPXnYFWBLyRj/view?usp=sharing"
+            className="footer-text"
+          >
+            Résumé
+          </a>
+          <a href="mailto:info2amy@yahoo.com" target="_blank" rel="noreferrer">
+            <GrMailOption size="3em" color="black" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/amy-a-kumar/"
             target="_blank"
             rel="noreferrer"
           >
-            <GrMailOption size="3em" color="black" />
-          </a>
-          <a href="https://www.linkedin.com/in/amy-a-kumar/" target="_blank" rel="noreferrer">
             <AiFillLinkedin size="3em" color="black" />
           </a>
-          <a href="https://github.com/info2amy?tab=repositories/" target="_blank" rel="noreferrer">
+          <a
+            href="https://github.com/info2amy?tab=repositories/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaGithub size="3em" color="black" />
           </a>
           {/* <a href="https://facebook.com/" target="_blank" rel="noreferrer">
