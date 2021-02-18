@@ -35,8 +35,10 @@ function App() {
             <img src={AboutMeArtwork} alt="AboutMeArtwork" />
             <img src={AboutMeBrand} alt="AboutMeBrand" />
             <br /> <br />
-            <>
-            <img id="lang" src={Languages} alt="Languages" /> </> <br /> 
+            <div>
+              <img id="lang" src={Languages} alt="Languages" />{" "}
+            </div>{" "}
+            <br />
           </section>
         </container>
 
