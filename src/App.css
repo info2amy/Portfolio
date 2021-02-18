@@ -124,14 +124,14 @@ h2 {
 }
 
 .about-section img {
-  width: 30vw;
+  width: 40vw;
   margin: 30px;
   margin-top: 0;
   border: 3px solid black;
   box-shadow: 8px 8px 8px #302a2a99;
 }
 .about-section #lang {
-  width: 30vw;
+  width: 40vw;
   margin: 30px;
   margin-top: 20;
   border: 3px solid black;

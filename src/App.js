@@ -34,11 +34,7 @@ function App() {
           <section className="about-section">
             <img src={AboutMeArtwork} alt="AboutMeArtwork" />
             <img src={AboutMeBrand} alt="AboutMeBrand" />
-            <br /> <br />
-            <div>
-              <img id="lang" src={Languages} alt="Languages" />{" "}
-            </div>{" "}
-            <br />
+            <img id="lang" src={Languages} alt="Languages" />
           </section>
         </container>
 
