@@ -2,7 +2,9 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: lightblue;
+  /* background-color: #E1F9F9; */
+  background-color: #DCF1DA;
+  /* background-color: lightblue; */
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -13,9 +15,8 @@ body {
   background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
-  /* margin: 0 auto; */
 }
-/*  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+/*  -  -  -  -  -  -  -  -  -  -  -  -  - */
 header {
   display: flex;
   width: 100%;
@@ -48,23 +49,12 @@ a {
   transition: all 0.4s ease;
 }
 
-/* header a #about-container,
-a #projects-container,
-a #connect-container {
-  display: flex;
-  flex: 1;
-  align-items: center;
-  justify-content: flex-end;
-  font-size: 18px;
-  margin-right: 5px;
-} */
-
 a:hover {
   transform: scale(1.1);
   color: #3492ac;
   font-weight: 800;
 }
-/*  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+/*  -  -  -  -  -  -  -  - -  -  -  -  - */
 .main-container {
   display: flex;
   flex-direction: column;
@@ -85,17 +75,17 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 75vw;
+  width: 80vw;
   height: 30vh;
-  max-width: 1000px;
-  max-height: 250px;
+  max-width: 1300px;
+  max-height: 550px;
   min-width: 300px;
   min-height: 180px;
   margin: 0 auto;
-  border: 3px solid #575151;
+  /* border: 3px solid #575151; */
   box-shadow: 8px 8px 8px #302a2a99;
 }
-/*  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+/*  -  -  -  -  -  -  -  - -  -  -  -  - */
 h2 {
   text-decoration: underline;
   margin-top: 80px;
@@ -104,7 +94,7 @@ h2 {
   font-size: 36px;
   color: #4d4949;
 }
-/*  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+/*  -  -  -  -  -  -  -  - -  -  -  -  - */
 .about-container {
   display: flex;
   flex-direction: column;
@@ -129,6 +119,7 @@ h2 {
   margin-top: 0;
   border: 3px solid black;
   box-shadow: 8px 8px 8px #302a2a99;
+  border-radius: 25px;
 }
 .about-section #lang {
   width: 40vw;
@@ -136,9 +127,9 @@ h2 {
   margin-top: 20;
   border: 3px solid black;
   box-shadow: 8px 8px 8px #302a2a99;
-  border-radius: 15%;
+  border-radius: 25px;
 }
-/*  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+/*  -  -  -  -  -  -  -  -  - -  -  -  - */
 .projects-container {
   display: flex;
   flex-direction: column;
@@ -193,7 +184,7 @@ h2 {
   flex-direction: row;
   margin-left: 34vw;
 }
-/*  -  -  -  -  -  -  -  -  -  -  -  -  -  - */
+/*  -  -  -  -  -  -  -  -  -  - -  -  - */
 hr {
   border-width: 3px;
   color: black;
@@ -225,7 +216,7 @@ footer {
   color: black;
 }
 
-/*  - - - - - R E S P O N S I V E - - - - - */
+/*  - - - - R E S P O N S I V E - - - - */
 @media (max-width: 500px) {
   img {
     width: 85vw;

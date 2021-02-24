@@ -29,7 +29,6 @@ function App() {
           <img className="title" src={AmyTitle} alt="AmyTitle" />
         </container>
 
-        <h2>About Me</h2>
         <container className="about-container" id="about-container">
           <section className="about-section">
             <img src={AboutMeArtwork} alt="AboutMeArtwork" />
