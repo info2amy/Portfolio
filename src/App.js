@@ -1,6 +1,8 @@
 import "./App.css";
+import { Route, Switch } from "react-router-dom";
+// import Contact from "./screens/contact/Contact";
 import { AiFillLinkedin } from "react-icons/ai";
-import { FaFacebook, FaPhoneSquareAlt, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { GrMailOption } from "react-icons/gr";
 import Project1Pic from "./images/Project1Pic.png";
 import Project2Pic from "./images/Project2Pic.png";
@@ -138,7 +140,7 @@ function App() {
         </footer>
       </body>
 
-      {/* <Switch > */}
+      <Switch >
         {/* <Route exact path="/">
           <Landing /></Route> */}
         {/* <Route exact path="/about">
@@ -147,7 +149,7 @@ function App() {
           <Projects /></Route> */}
         {/* <Route exact path="/contact">
           <Contact /></Route> */}
-      {/* </Switch>  */}
+      </Switch> 
     </div>
   );
 }

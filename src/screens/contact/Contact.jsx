@@ -1,4 +1,6 @@
-import React from 'react'
+import { useState } from 'react'
+import emailjs from "emailjs-com";
+import "./Contact.css";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -43,7 +45,38 @@ export default function Contact() {
   };
 
   return (
-    <div>
+    <div className='contact-page'>
+      <section className='form-container'>
+        <form onSubmit={handleSubmit}>
+          <label>Name</label> <br />
+          <input
+            name='from_name'
+            value={from_name}
+            type='text'
+            required
+            onChange={handleChange}
+            />
+          <label>Email</label> <br />
+          <input
+            name='from_email'
+            value={from_email}
+            type='email'
+            required
+            onChange={handleChange}
+            />
+          <label>Message</label> <br />
+          <input
+            name='message'
+            value={message}
+            type='text'
+            required
+            rowsMax={8}
+            multiline
+            onChange={handleChange}
+          />
+          <button className='send-button' type='submit' value='Send'>Send this Message</button>
+        </form>
+      </section>
       
     </div>
   )
