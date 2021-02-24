@@ -55,7 +55,7 @@ export default function Contact() {
             type='text'
             required
             onChange={handleChange}
-            />
+            /> <br /> <br />
           <label>Email</label> <br />
           <input
             name='from_email'
@@ -63,7 +63,7 @@ export default function Contact() {
             type='email'
             required
             onChange={handleChange}
-            />
+            /> <br /> <br />
           <label>Message</label> <br />
           <input
             name='message'
@@ -73,7 +73,7 @@ export default function Contact() {
             rowsMax={8}
             multiline
             onChange={handleChange}
-          />
+          /> <br /> <br />
           <button className='send-button' type='submit' value='Send'>Send this Message</button>
         </form>
       </section>

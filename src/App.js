@@ -1,6 +1,6 @@
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
-// import Contact from "./screens/contact/Contact";
+import Contact from "./screens/contact/Contact";
 import { AiFillLinkedin } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { GrMailOption } from "react-icons/gr";
@@ -147,8 +147,8 @@ function App() {
           <AboutMe /></Route> */}
         {/* <Route exact path="/projects">
           <Projects /></Route> */}
-        {/* <Route exact path="/contact">
-          <Contact /></Route> */}
+        <Route exact path="/contact">
+          <Contact /></Route>
       </Switch> 
     </div>
   );
