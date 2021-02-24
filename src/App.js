@@ -135,12 +135,19 @@ function App() {
           >
             <FaGithub size="3em" color="black" />
           </a>
-          {/* <a href="https://facebook.com/" target="_blank" rel="noreferrer">
-            <FaFacebook size="3em" color="black" />
-          </a> */}
-          {/* <div className='footer-text'>Amy Kumar 2021</div> */}
         </footer>
       </body>
+
+      {/* <Switch > */}
+        {/* <Route exact path="/">
+          <Landing /></Route> */}
+        {/* <Route exact path="/about">
+          <AboutMe /></Route> */}
+        {/* <Route exact path="/projects">
+          <Projects /></Route> */}
+        {/* <Route exact path="/contact">
+          <Contact /></Route> */}
+      {/* </Switch>  */}
     </div>
   );
 }

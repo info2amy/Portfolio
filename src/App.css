@@ -2,8 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* background-color: #E1F9F9; */
   background-color: #DCF1DA;
+  /* background-color: #E1F9F9; */
   /* background-color: lightblue; */
   margin-top: 30px;
   display: flex;
