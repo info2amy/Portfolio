@@ -151,9 +151,9 @@ function App() {
           >
             Résumé
           </a>
-          <a href="mailto:info2amy@yahoo.com" target="_blank" rel="noreferrer">
+          {/* <a href="mailto:info2amy@yahoo.com" target="_blank" rel="noreferrer">
             <GrMailOption size="3em" color="black" />
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/amy-a-kumar/"
             target="_blank"
