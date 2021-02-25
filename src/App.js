@@ -47,14 +47,21 @@ function App() {
             </a>
             <section className="text">
               <h3>What's for Dinner?</h3>
-              <p>My first project, after 10 days of coding!</p>
               <p>
-                This app was built using HTML, CSS, JavaScript and Axios along
-                with a third-party API. I was really pleased with making one of
-                the containers look like a dining table, which becomes set for
+                My first project, after 10 days of coding!<br></br> This app was
+                built using HTML, CSS, JavaScript and Axios along with a
+                third-party API. I was really pleased with making one of the
+                containers look like a dining table, which becomes set for
                 dinner once a main ingredient is entered! And I added a YouTube
                 link for prep information.
               </p>
+              <a
+                href="https://github.com/info2amy/Whats-for-dinner"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub size="1.5em" color="gray" />
+              </a>
             </section>
           </section>
           <br />
@@ -72,6 +79,13 @@ function App() {
                 storage, and also employed were React, React Router and Axios,
                 as well as CSS styling.
               </p>
+              <a
+                href="https://github.com/info2amy/Clearlake"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub size="1.5em" color="gray" />
+              </a>
             </section>
           </section>
           <section className="projects-section-3">
@@ -87,6 +101,13 @@ function App() {
                 experience with collaboration and Git version control. It uses a
                 React frontend and a backend built with Express and MongoDB.
               </p>
+              <a
+                href="https://github.com/info2amy/Wanderin-Bard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub size="1.5em" color="gray" />
+              </a>
             </section>
           </section>
           <section className="projects-section-4">
@@ -104,6 +125,13 @@ function App() {
                 for the frontend, this app has full CRUD capabilities as well as
                 user authentication.
               </p>
+              <a
+                href="https://github.com/info2amy/The-Gardeners-Journal"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FaGithub size="1.5em" color="gray" />
+              </a>
             </section>
           </section>
         </container>
@@ -115,7 +143,8 @@ function App() {
 
         <footer>
           <a
-            href="https://drive.google.com/file/d/1xXaC0h4ZhJtB02R1tZnfFPXnYFWBLyRj/view?usp=sharing"
+            href="https://drive.google.com/file/d/1srl2JVdqHPRxw5yWFpylSGEonM0dSa8J/view?usp=sharing" target="_blank"
+            rel="noreferrer"
             className="footer-text"
           >
             Résumé
@@ -140,7 +169,7 @@ function App() {
         </footer>
       </body>
 
-      <Switch >
+      <Switch>
         {/* <Route exact path="/">
           <Landing /></Route> */}
         {/* <Route exact path="/about">
@@ -148,8 +177,9 @@ function App() {
         {/* <Route exact path="/projects">
           <Projects /></Route> */}
         <Route exact path="/contact">
-          <Contact /></Route>
-      </Switch> 
+          <Contact />
+        </Route>
+      </Switch>
     </div>
   );
 }
