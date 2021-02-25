@@ -139,6 +139,7 @@ function App() {
         <container className="connect-container" id="connect-container">
           <hr />
           <h2>Let's Connect!</h2>
+          <Contact/>
         </container>
 
         <footer>
@@ -176,9 +177,9 @@ function App() {
           <AboutMe /></Route> */}
         {/* <Route exact path="/projects">
           <Projects /></Route> */}
-        <Route exact path="/contact">
+        {/* <Route exact path="/contact">
           <Contact />
-        </Route>
+        </Route> */}
       </Switch>
     </div>
   );
