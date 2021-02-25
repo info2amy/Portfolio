@@ -8,10 +8,10 @@ import Project1Pic from "./images/Project1Pic.png";
 import Project2Pic from "./images/Project2Pic.png";
 import Project3Pic from "./images/Project3Pic.png";
 import Project4Pic from "./images/Project4Pic.png";
-import AboutMeArtwork from "./images/AboutMeArtwork.png";
-import AboutMeBrand from "./images/AboutMeBrand.png";
-import AmyTitle from "./images/AmyTitle.png";
-import AmyLogo from "./images/AmyLogo.png";
+import AboutMeArtworkSage from "./images/AboutMeArtworkSage.png";
+import AboutMeBrandSage from "./images/AboutMeBrandSage.png";
+import AmyTitleSage from "./images/AmyTitleSage.png";
+import AmyLogoSage from "./images/AmyLogoSage.png";
 import Languages from "./images/Languages.png";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       <body>
         <header>
           <a href="#">
-            <img className="logo" id="logo" src={AmyLogo} alt="logo" />
+            <img className="logo" id="logo" src={AmyLogoSage} alt="logo" />
           </a>
           <a href="#about-container">About</a>
           <a href="#projects-container">Software Development</a>
@@ -28,13 +28,13 @@ function App() {
         </header>
 
         <container className="main-container">
-          <img className="title" src={AmyTitle} alt="AmyTitle" />
+          <img className="title" src={AmyTitleSage} alt="AmyTitle" />
         </container>
 
         <container className="about-container" id="about-container">
           <section className="about-section">
-            <img src={AboutMeArtwork} alt="AboutMeArtwork" />
-            <img src={AboutMeBrand} alt="AboutMeBrand" />
+            <img src={AboutMeArtworkSage} alt="AboutMeArtwork" />
+            <img src={AboutMeBrandSage} alt="AboutMeBrand" />
             <img id="lang" src={Languages} alt="Languages" />
           </section>
         </container>
@@ -139,12 +139,13 @@ function App() {
         <container className="connect-container" id="connect-container">
           <hr />
           <h2>Let's Connect!</h2>
-          <Contact/>
+          <Contact />
         </container>
 
         <footer>
           <a
-            href="https://drive.google.com/file/d/1srl2JVdqHPRxw5yWFpylSGEonM0dSa8J/view?usp=sharing" target="_blank"
+            href="https://drive.google.com/file/d/1srl2JVdqHPRxw5yWFpylSGEonM0dSa8J/view?usp=sharing"
+            target="_blank"
             rel="noreferrer"
             className="footer-text"
           >
